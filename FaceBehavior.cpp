@@ -12,7 +12,7 @@ You should have received a copy of the GNU Affero General Public License along w
 
 #include "Face.h"
 #include "FaceBehavior.h"
-#include "FaceEmotions.hpp"
+#include "FaceEmotions.h"
 
 FaceBehavior::FaceBehavior(Face& face) : _face(face), Timer(500) {
 	Timer.Start();

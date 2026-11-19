@@ -14,7 +14,7 @@ You should have received a copy of the GNU Affero General Public License along w
 #define _FACEBEHAVIOR_h
 
 #include <Arduino.h>
-#include "FaceEmotions.hpp"
+#include "FaceEmotions.h"
 #include "AsyncTimer.h"
 
 class Face;
